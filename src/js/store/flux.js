@@ -20,17 +20,31 @@ const getState = ({ getStore, getActions, setStore }) => {
 
 			newContacts: [
 				{
-					name: "Ronaldo Nazario", 
-					email: "elgordoronaldo@gmail.com", 
-					phone: "0993521455", 
-					address: "Av. Siempre Viva 1234" 
-				},
-				{
-					name: "Nicolás Maduro", 
-					email: "sigomadurando@commie.com", 
-					phone: "512455258", 
-					address: "124 Conch St., Bikini Bottom" 
-				}
+					"slug": "juanma",
+					"contacts": [
+					  {
+						"name": "Joaquín",
+						"phone": "+59811223344",
+						"email": "joaquin@gmail.com",
+						"address": "Independencia 995",
+						"id": 55
+					  },
+					  {
+						"name": "Tamara",
+						"phone": "+598638549",
+						"email": "Tamara@gmail.com",
+						"address": "Av.Artigas 123",
+						"id": 56
+					  },
+					  {
+						"name": "Rosario",
+						"phone": "+598662745",
+						"email": "rossi56@gmail.com",
+						"address": "Instrucciones 098",
+						"id": 57
+					  }
+					]
+				  }
 			]
 			
 		},
